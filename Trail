@@ -1,0 +1,110 @@
+<roblox!‰ÿ
+
+      
+           META$   "       ð      ExplicitAutoJoints   trueINST          ð        Frame       INST          ð
+   
+   LocalScript       INST          ð
+   	   ScreenGui        INST          ð	       TextBox       
+INST          ð   
+   TextButton       INST   !       õ      UICorner   P  INST!          ð   
+   UIGradient          PROP          ð       Active PROP          ð
+    
+   AnchorPoint
+        PROP"           ð       AttributesSerialize    PROP          ð        AutoLocalizePROP          ð
+    
+   AutomaticSize    PROP'   %       ð       BackgroundColor3         PROP%   #       ð       BackgroundTransparency    PROP"   !       ð       BorderColor3          PROP          ð    
+   BorderMode    PROP          ð
+       BorderSizePixel    PROP          ð       Capabilities!        PROP          ð
+       ClipsDescendants PROP          ð       DefinesCapabilities PROP          ð    	   Draggable PROP          ð        InteractablePROP          ð	    
+   LayoutOrder    PROP          ð        Name   FramePROP           ð       NextSelectionDown   PROP           ð       NextSelectionLeft   PROP!          ð       NextSelectionRight   PROP          ð
+       NextSelectionUp   PROP#   !       ð       Position }“94}(Á        PROP$   "       ð       RootLocalizationTable   PROP          ð       Rotation    PROP          ð    
+   Selectable PROP$   "       ð       SelectionBehaviorDown    PROP$   "       ð       SelectionBehaviorLeft    PROP%   #       ð       SelectionBehaviorRight    PROP"           ð       SelectionBehaviorUp    PROP          ð	       SelectionGroup PROP#   !       ð       SelectionImageObject   PROP          ð       SelectionOrder    PROP          Ð       Size 
+  `’  :PROP          ð       SizeConstraint    PROP           ð    
+   SourceAssetId       PROP          ð       Style    PROP          ð       Tags    PROP          ð        VisiblePROP          ð       ZIndex   PROP"           ð      AttributesSerialize    PROP          ð      Capabilities!        PROP          ð      DefinesCapabilities PROP          ð      Disabled PROP          ð
+      LinkedSource    PROP          ð
+      Name
+   LocalScriptPROP          ð   
+   RunContext    PROP?   =       ð.   
+   ScriptGuid&   {97E450E0-4F4E-4630-B0E5-F21730BF0BC8}PROPá         òG      Source    local frame = script.Parent -- Replace with the path to your Frame
+C ’textBox =M ò:FindFirstChild("T  (")W  a €actual n‘ "ofh < j _uttonm 
+# p  s ) ó
+
+-- Define DupedGems function” ðdesiredAmount = nilè To store;¡input from Õ B Q d B()
+	ò ðlibrary = require(game.ò icatedStorage.L) õ.Client.CurrencyCmdsM ÃoriginalGetFÅ $ =c T.Get
+w opoop =1 µ("Diamonds"X `increm8=D/ 15T qdelayTin‹0.1
+
+	if/ {> 0 and D< 30 1AGn
+		¶  Ï #(cø `Id)
+		b  F == ¾ I 		returnô  4 @else  U g Bend
+ 
+		whileN + <Ê  doY  i " =" += Wrint(Ü ok Uwait(K  } µ 5`messagÖ5M8  U C À.Error("Hey,‘ó need to enter a number between¿@25b! š    GtConnectüdto set&! aE
+Q³.FocusLost:> (+(€ `Presseê"if’  Ü
+B= to° (b  Ž —oConverŸ  ã 
+M%no­ ñ¯7¯ z	D {bPleaseß ƒ a validwe	b Aend)³.lÊ` click¹Âstart dupingi! b.Mouse  1C- th
+T® Ä4 Ð¢L'P@ befŠû Ding.œPend)
+PROP           ð   
+   SourceAssetId       PROP          ð      Tags    PROP"           ð      AttributesSerialize    PROP          ð       AutoLocalizePROP          ð      Capabilities!        PROP           ð      ClipToDeviceSafeAreaPROP          ð      DefinesCapabilities PROP          ð
+      DisplayOrder    PROP          ð       EnabledPROP          ð
+      Name	   ScreenGuiPROP          ð       ResetOnSpawnPROP$   "       ð      RootLocalizationTable   PROP$   "       ð      SafeAreaCompatibility   PROP          ð
+      ScreenInsets   PROP$   "       ð      SelectionBehaviorDown    PROP$   "       ð      SelectionBehaviorLeft    PROP%   #       ð      SelectionBehaviorRight    PROP"           ð      SelectionBehaviorUp    PROP          ð	      SelectionGroup PROP           ð   
+   SourceAssetId       PROP          ð      Tags    PROP          ð      ZIndexBehavior    PROP          ð      ActivePROP          ð
+   
+   AnchorPoint
+        PROP"           ð      AttributesSerialize    PROP          ð       AutoLocalizePROP          ð
+   
+   AutomaticSize    PROP'   %       ð      BackgroundColor3          PROP%   #       ð      BackgroundTransparency~ÌÌÌPROP"   !       ð      BorderColor3          PROP          ð   
+   BorderMode    PROP          ð
+      BorderSizePixel    PROP          ð      Capabilities!        PROP          ð
+      ClearTextOnFocusPROP          ð
+      ClipsDescendants PROP          ð      DefinesCapabilities PROP          ð   	   Draggable PROPZ   r       ÿ6      FontFace ,   rbxasset://fonts/families/SourceSansPro.json *3 	* À-Regular.ttfPROP          ð       InteractablePROP          ð	   
+   LayoutOrder    PROP          ð   
+   LineHeight   PROP*   (       ð      LocalizationMatchIdentifier    PROP,   *       ð      LocalizationMatchedSourceText    PROP"           ð      MaxVisibleGraphemes   PROP          ð   	   MultiLine PROP          ð	      Name    TextBoxPROP           ð      NextSelectionDown   PROP           ð      NextSelectionLeft   PROP!          ð      NextSelectionRight   PROP          ð
+      NextSelectionUp   PROP          ð      OpenTypeFeatures    PROP(   &       ð      PlaceholderColor3~fff~fff~fffPROP          ð
+      PlaceholderText    PROP#   !       ð      Position }¢:$}~8.        PROP          ð      RichText PROP$   "       ð      RootLocalizationTable   PROP          ð      Rotation    PROP          ð   
+   SelectablePROP$   "       ð      SelectionBehaviorDown    PROP$   "       ð      SelectionBehaviorLeft    PROP%   #       ð      SelectionBehaviorRight    PROP"           ð      SelectionBehaviorUp    PROP          ð	      SelectionGroup PROP#   !       ð      SelectionImageObject   PROP          ð      SelectionOrder    PROP          ð
+      ShowNativeInputPROP          å      Size   `J   dPROP          ð      SizeConstraint    PROP           ð   
+   SourceAssetId       PROP          ð      Tags    PROP          ð      Text    PROP!          ð   
+   TextColor3            PROP          ð
+   
+   TextDirection    PROP          ð       TextEditablePROP          ð   
+   TextScaled PROP          ð      TextSize‚À  PROP'   %       ð      TextStrokeColor3            PROP%   #       ð      TextStrokeTransparency   PROP          ð      TextTransparency    PROP          ð
+      TextTruncate    PROP          ð   
+   TextWrapped PROP          ð      TextXAlignment   PROP          ð      TextYAlignment   PROP          ð       VisiblePROP          ð      ZIndex   PROP          ð      ActivePROP          ð
+   
+   AnchorPoint
+        PROP"           ð      AttributesSerialize    PROP          ð
+      AutoButtonColorPROP          ð       AutoLocalizePROP          ð
+   
+   AutomaticSize    PROP'   %       ð      BackgroundColor3~qqr|ééì    PROP%   #       ð      BackgroundTransparency    PROP"   !       ð      BorderColor3          PROP          ð   
+   BorderMode    PROP          ð
+      BorderSizePixel    PROP          ð      Capabilities!        PROP          ð
+      ClipsDescendants PROP          ð      DefinesCapabilities PROP          ð   	   Draggable PROPI   G       ð8      FontFace +   rbxasset://fonts/families/PressStart2P.json     PROP          ð       InteractablePROP          ð	   
+   LayoutOrder    PROP          ð   
+   LineHeight   PROP*   (       ð      LocalizationMatchIdentifier    PROP,   *       ð      LocalizationMatchedSourceText    PROP"           ð      MaxVisibleGraphemes   PROP          ð       Modal PROP          @    ðName
+   TextButtonPROP           ð      NextSelectionDown   PROP           ð      NextSelectionLeft   PROP!          ð      NextSelectionRight   PROP          ð
+      NextSelectionUp   PROP          ð      OpenTypeFeatures    PROP#   !       ð      Position }¢:$~
+.        PROP          ð      RichText PROP$   "       ð      RootLocalizationTable   PROP          ð      Rotation    PROP          ð   
+   SelectablePROP          ð      Selected PROP$   "       ð      SelectionBehaviorDown    PROP$   "       ð      SelectionBehaviorLeft    PROP%   #       ð      SelectionBehaviorRight    PROP"           ð      SelectionBehaviorUp    PROP          ð	      SelectionGroup PROP#   !       ð      SelectionImageObject   PROP          ð      SelectionOrder    PROP          @    eSize   `J   PPROP          ð      SizeConstraint    PROP           ð   
+   SourceAssetId       PROP          ð      Style    PROP          @    Tags    PROP          @    ðText	   ðŸ”¥DUPE!PROP!          ð   
+   TextColor3            PROP          ð
+   
+   TextDirection    PROP          ð   
+   TextScaledPROP          ð      TextSize‚À  PROP'   %       ð      TextStrokeColor3            PROP%   #       ð      TextStrokeTransparency   PROP          ð      TextTransparency    PROP          ð
+      TextTruncate    PROP          ð   
+   TextWrappedPROP          ð      TextXAlignment   PROP          ð      TextYAlignment   PROP          ð       VisiblePROP          ð      ZIndex   PROP*   (       ð      AttributesSerialize            PROP    -       þ       Capabilities!  P     PROP    -       þ       CornerRadius  P  PROP!          ð      DefinesCapabilities   PROP$   1       ÿ
+      Name   UICorner  PornerPROP!   .       þ   
+   SourceAssetId  P  PROP          ð
+      Tags            PROP&   $       ð      AttributesSerialize        PROP    %       ö       Capabilities!  P     PROPU   Ž       ò      Color  @©¨¨>
+ @ÁÀ@< L¹ß‚= =Æ+Ÿ @  €?  
+ `€?ÁÀÀ<   ,  P?    PROP           ð      DefinesCapabilities  PROP          ð       EnabledPROP%   )       õ      Name
+   UIGradient PdientPROP          @    †Offset
+  P     PROP          ð
+      Rotation        PROP!   &       ö   
+   SourceAssetId  P   PROP          ð      Tags        PROP*   M       ü      Transparency  $€?  P     PRNT    U       ? 
+  
+¯
+
+* 
+   
+	 
+END     	       </roblox>
