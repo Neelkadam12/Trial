@@ -1,110 +1,751 @@
-<roblox!‰ÿ
-
-      
-           META$   "       ð      ExplicitAutoJoints   trueINST          ð        Frame       INST          ð
-   
-   LocalScript       INST          ð
-   	   ScreenGui        INST          ð	       TextBox       
-INST          ð   
-   TextButton       INST   !       õ      UICorner   P  INST!          ð   
-   UIGradient          PROP          ð       Active PROP          ð
-    
-   AnchorPoint
-        PROP"           ð       AttributesSerialize    PROP          ð        AutoLocalizePROP          ð
-    
-   AutomaticSize    PROP'   %       ð       BackgroundColor3         PROP%   #       ð       BackgroundTransparency    PROP"   !       ð       BorderColor3          PROP          ð    
-   BorderMode    PROP          ð
-       BorderSizePixel    PROP          ð       Capabilities!        PROP          ð
-       ClipsDescendants PROP          ð       DefinesCapabilities PROP          ð    	   Draggable PROP          ð        InteractablePROP          ð	    
-   LayoutOrder    PROP          ð        Name   FramePROP           ð       NextSelectionDown   PROP           ð       NextSelectionLeft   PROP!          ð       NextSelectionRight   PROP          ð
-       NextSelectionUp   PROP#   !       ð       Position }“94}(Á        PROP$   "       ð       RootLocalizationTable   PROP          ð       Rotation    PROP          ð    
-   Selectable PROP$   "       ð       SelectionBehaviorDown    PROP$   "       ð       SelectionBehaviorLeft    PROP%   #       ð       SelectionBehaviorRight    PROP"           ð       SelectionBehaviorUp    PROP          ð	       SelectionGroup PROP#   !       ð       SelectionImageObject   PROP          ð       SelectionOrder    PROP          Ð       Size 
-  `’  :PROP          ð       SizeConstraint    PROP           ð    
-   SourceAssetId       PROP          ð       Style    PROP          ð       Tags    PROP          ð        VisiblePROP          ð       ZIndex   PROP"           ð      AttributesSerialize    PROP          ð      Capabilities!        PROP          ð      DefinesCapabilities PROP          ð      Disabled PROP          ð
-      LinkedSource    PROP          ð
-      Name
-   LocalScriptPROP          ð   
-   RunContext    PROP?   =       ð.   
-   ScriptGuid&   {97E450E0-4F4E-4630-B0E5-F21730BF0BC8}PROPá         òG      Source    local frame = script.Parent -- Replace with the path to your Frame
-C ’textBox =M ò:FindFirstChild("T  (")W  a €actual n‘ "ofh < j _uttonm 
-# p  s ) ó
-
--- Define DupedGems function” ðdesiredAmount = nilè To store;¡input from Õ B Q d B()
-	ò ðlibrary = require(game.ò icatedStorage.L) õ.Client.CurrencyCmdsM ÃoriginalGetFÅ $ =c T.Get
-w opoop =1 µ("Diamonds"X `increm8=D/ 15T qdelayTin‹0.1
-
-	if/ {> 0 and D< 30 1AGn
-		¶  Ï #(cø `Id)
-		b  F == ¾ I 		returnô  4 @else  U g Bend
- 
-		whileN + <Ê  doY  i " =" += Wrint(Ü ok Uwait(K  } µ 5`messagÖ5M8  U C À.Error("Hey,‘ó need to enter a number between¿@25b! š    GtConnectüdto set&! aE
-Q³.FocusLost:> (+(€ `Presseê"if’  Ü
-B= to° (b  Ž —oConverŸ  ã 
-M%no­ ñ¯7¯ z	D {bPleaseß ƒ a validwe	b Aend)³.lÊ` click¹Âstart dupingi! b.Mouse  1C- th
-T® Ä4 Ð¢L'P@ befŠû Ding.œPend)
-PROP           ð   
-   SourceAssetId       PROP          ð      Tags    PROP"           ð      AttributesSerialize    PROP          ð       AutoLocalizePROP          ð      Capabilities!        PROP           ð      ClipToDeviceSafeAreaPROP          ð      DefinesCapabilities PROP          ð
-      DisplayOrder    PROP          ð       EnabledPROP          ð
-      Name	   ScreenGuiPROP          ð       ResetOnSpawnPROP$   "       ð      RootLocalizationTable   PROP$   "       ð      SafeAreaCompatibility   PROP          ð
-      ScreenInsets   PROP$   "       ð      SelectionBehaviorDown    PROP$   "       ð      SelectionBehaviorLeft    PROP%   #       ð      SelectionBehaviorRight    PROP"           ð      SelectionBehaviorUp    PROP          ð	      SelectionGroup PROP           ð   
-   SourceAssetId       PROP          ð      Tags    PROP          ð      ZIndexBehavior    PROP          ð      ActivePROP          ð
-   
-   AnchorPoint
-        PROP"           ð      AttributesSerialize    PROP          ð       AutoLocalizePROP          ð
-   
-   AutomaticSize    PROP'   %       ð      BackgroundColor3          PROP%   #       ð      BackgroundTransparency~ÌÌÌPROP"   !       ð      BorderColor3          PROP          ð   
-   BorderMode    PROP          ð
-      BorderSizePixel    PROP          ð      Capabilities!        PROP          ð
-      ClearTextOnFocusPROP          ð
-      ClipsDescendants PROP          ð      DefinesCapabilities PROP          ð   	   Draggable PROPZ   r       ÿ6      FontFace ,   rbxasset://fonts/families/SourceSansPro.json *3 	* À-Regular.ttfPROP          ð       InteractablePROP          ð	   
-   LayoutOrder    PROP          ð   
-   LineHeight   PROP*   (       ð      LocalizationMatchIdentifier    PROP,   *       ð      LocalizationMatchedSourceText    PROP"           ð      MaxVisibleGraphemes   PROP          ð   	   MultiLine PROP          ð	      Name    TextBoxPROP           ð      NextSelectionDown   PROP           ð      NextSelectionLeft   PROP!          ð      NextSelectionRight   PROP          ð
-      NextSelectionUp   PROP          ð      OpenTypeFeatures    PROP(   &       ð      PlaceholderColor3~fff~fff~fffPROP          ð
-      PlaceholderText    PROP#   !       ð      Position }¢:$}~8.        PROP          ð      RichText PROP$   "       ð      RootLocalizationTable   PROP          ð      Rotation    PROP          ð   
-   SelectablePROP$   "       ð      SelectionBehaviorDown    PROP$   "       ð      SelectionBehaviorLeft    PROP%   #       ð      SelectionBehaviorRight    PROP"           ð      SelectionBehaviorUp    PROP          ð	      SelectionGroup PROP#   !       ð      SelectionImageObject   PROP          ð      SelectionOrder    PROP          ð
-      ShowNativeInputPROP          å      Size   `J   dPROP          ð      SizeConstraint    PROP           ð   
-   SourceAssetId       PROP          ð      Tags    PROP          ð      Text    PROP!          ð   
-   TextColor3            PROP          ð
-   
-   TextDirection    PROP          ð       TextEditablePROP          ð   
-   TextScaled PROP          ð      TextSize‚À  PROP'   %       ð      TextStrokeColor3            PROP%   #       ð      TextStrokeTransparency   PROP          ð      TextTransparency    PROP          ð
-      TextTruncate    PROP          ð   
-   TextWrapped PROP          ð      TextXAlignment   PROP          ð      TextYAlignment   PROP          ð       VisiblePROP          ð      ZIndex   PROP          ð      ActivePROP          ð
-   
-   AnchorPoint
-        PROP"           ð      AttributesSerialize    PROP          ð
-      AutoButtonColorPROP          ð       AutoLocalizePROP          ð
-   
-   AutomaticSize    PROP'   %       ð      BackgroundColor3~qqr|ééì    PROP%   #       ð      BackgroundTransparency    PROP"   !       ð      BorderColor3          PROP          ð   
-   BorderMode    PROP          ð
-      BorderSizePixel    PROP          ð      Capabilities!        PROP          ð
-      ClipsDescendants PROP          ð      DefinesCapabilities PROP          ð   	   Draggable PROPI   G       ð8      FontFace +   rbxasset://fonts/families/PressStart2P.json     PROP          ð       InteractablePROP          ð	   
-   LayoutOrder    PROP          ð   
-   LineHeight   PROP*   (       ð      LocalizationMatchIdentifier    PROP,   *       ð      LocalizationMatchedSourceText    PROP"           ð      MaxVisibleGraphemes   PROP          ð       Modal PROP          @    ðName
-   TextButtonPROP           ð      NextSelectionDown   PROP           ð      NextSelectionLeft   PROP!          ð      NextSelectionRight   PROP          ð
-      NextSelectionUp   PROP          ð      OpenTypeFeatures    PROP#   !       ð      Position }¢:$~
-.        PROP          ð      RichText PROP$   "       ð      RootLocalizationTable   PROP          ð      Rotation    PROP          ð   
-   SelectablePROP          ð      Selected PROP$   "       ð      SelectionBehaviorDown    PROP$   "       ð      SelectionBehaviorLeft    PROP%   #       ð      SelectionBehaviorRight    PROP"           ð      SelectionBehaviorUp    PROP          ð	      SelectionGroup PROP#   !       ð      SelectionImageObject   PROP          ð      SelectionOrder    PROP          @    eSize   `J   PPROP          ð      SizeConstraint    PROP           ð   
-   SourceAssetId       PROP          ð      Style    PROP          @    Tags    PROP          @    ðText	   ðŸ”¥DUPE!PROP!          ð   
-   TextColor3            PROP          ð
-   
-   TextDirection    PROP          ð   
-   TextScaledPROP          ð      TextSize‚À  PROP'   %       ð      TextStrokeColor3            PROP%   #       ð      TextStrokeTransparency   PROP          ð      TextTransparency    PROP          ð
-      TextTruncate    PROP          ð   
-   TextWrappedPROP          ð      TextXAlignment   PROP          ð      TextYAlignment   PROP          ð       VisiblePROP          ð      ZIndex   PROP*   (       ð      AttributesSerialize            PROP    -       þ       Capabilities!  P     PROP    -       þ       CornerRadius  P  PROP!          ð      DefinesCapabilities   PROP$   1       ÿ
-      Name   UICorner  PornerPROP!   .       þ   
-   SourceAssetId  P  PROP          ð
-      Tags            PROP&   $       ð      AttributesSerialize        PROP    %       ö       Capabilities!  P     PROPU   Ž       ò      Color  @©¨¨>
- @ÁÀ@< L¹ß‚= =Æ+Ÿ @  €?  
- `€?ÁÀÀ<   ,  P?    PROP           ð      DefinesCapabilities  PROP          ð       EnabledPROP%   )       õ      Name
-   UIGradient PdientPROP          @    †Offset
-  P     PROP          ð
-      Rotation        PROP!   &       ö   
-   SourceAssetId  P   PROP          ð      Tags        PROP*   M       ü      Transparency  $€?  P     PRNT    U       ? 
-  
-¯
-
-* 
-   
-	 
-END     	       </roblox>
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitAutoJoints">true</Meta>
+	<External>null</External>
+	<External>nil</External>
+	<Item class="UICorner" referent="RBX506C0811C790450FB24FC3253082CD73">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<UDim name="CornerRadius">
+				<S>0</S>
+				<O>15</O>
+			</UDim>
+			<bool name="DefinesCapabilities">false</bool>
+			<string name="Name">UICorner</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+	</Item>
+	<Item class="ScreenGui" referent="RBX889B0F19B308408CB25C38456AAD0713">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoLocalize">true</bool>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="ClipToDeviceSafeArea">true</bool>
+			<bool name="DefinesCapabilities">false</bool>
+			<int name="DisplayOrder">0</int>
+			<bool name="Enabled">true</bool>
+			<string name="Name">ScreenGui</string>
+			<bool name="ResetOnSpawn">true</bool>
+			<Ref name="RootLocalizationTable">null</Ref>
+			<token name="SafeAreaCompatibility">1</token>
+			<token name="ScreenInsets">2</token>
+			<token name="SelectionBehaviorDown">0</token>
+			<token name="SelectionBehaviorLeft">0</token>
+			<token name="SelectionBehaviorRight">0</token>
+			<token name="SelectionBehaviorUp">0</token>
+			<bool name="SelectionGroup">false</bool>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="ZIndexBehavior">0</token>
+		</Properties>
+		<Item class="Frame" referent="RBX23EA19DCEBCB4A568AD9F7CF028D155A">
+			<Properties>
+				<bool name="Active">false</bool>
+				<Vector2 name="AnchorPoint">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AutoLocalize">true</bool>
+				<token name="AutomaticSize">0</token>
+				<Color3 name="BackgroundColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<float name="BackgroundTransparency">0</float>
+				<Color3 name="BorderColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<token name="BorderMode">0</token>
+				<int name="BorderSizePixel">0</int>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="ClipsDescendants">false</bool>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Draggable">false</bool>
+				<bool name="Interactable">true</bool>
+				<int name="LayoutOrder">0</int>
+				<string name="Name">Frame</string>
+				<Ref name="NextSelectionDown">null</Ref>
+				<Ref name="NextSelectionLeft">null</Ref>
+				<Ref name="NextSelectionRight">null</Ref>
+				<Ref name="NextSelectionUp">null</Ref>
+				<UDim2 name="Position">
+					<XS>0.3937729</XS>
+					<XO>0</XO>
+					<YS>0.289799064</YS>
+					<YO>0</YO>
+				</UDim2>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<float name="Rotation">0</float>
+				<bool name="Selectable">false</bool>
+				<token name="SelectionBehaviorDown">0</token>
+				<token name="SelectionBehaviorLeft">0</token>
+				<token name="SelectionBehaviorRight">0</token>
+				<token name="SelectionBehaviorUp">0</token>
+				<bool name="SelectionGroup">false</bool>
+				<Ref name="SelectionImageObject">null</Ref>
+				<int name="SelectionOrder">0</int>
+				<UDim2 name="Size">
+					<XS>0</XS>
+					<XO>329</XO>
+					<YS>0</YS>
+					<YO>157</YO>
+				</UDim2>
+				<token name="SizeConstraint">0</token>
+				<int64 name="SourceAssetId">-1</int64>
+				<token name="Style">0</token>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="Visible">true</bool>
+				<int name="ZIndex">1</int>
+			</Properties>
+			<Item class="UIGradient" referent="RBXC061439175C64AA79526F1E816D48743">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<ColorSequence name="Color">0 0.329412 0 0.0117647 0 0.0639033 0.329412 0 0.0117647 0 0.0777202 0.329412 0 0.0117647 0 1 0 0 0 0 </ColorSequence>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<string name="Name">UIGradient</string>
+					<Vector2 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<float name="Rotation">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+				</Properties>
+			</Item>
+			<Item class="UICorner" referent="RBX49729FAE19394DBE97872B2B514EDCB6">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<UDim name="CornerRadius">
+						<S>0</S>
+						<O>15</O>
+					</UDim>
+					<bool name="DefinesCapabilities">false</bool>
+					<string name="Name">UICorner</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="TextBox" referent="RBX1553358868BB41599D63E7700DCA9B8F">
+			<Properties>
+				<bool name="Active">true</bool>
+				<Vector2 name="AnchorPoint">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AutoLocalize">true</bool>
+				<token name="AutomaticSize">0</token>
+				<Color3 name="BackgroundColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>0</B>
+				</Color3>
+				<float name="BackgroundTransparency">0.899999976</float>
+				<Color3 name="BorderColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<token name="BorderMode">0</token>
+				<int name="BorderSizePixel">0</int>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="ClearTextOnFocus">true</bool>
+				<bool name="ClipsDescendants">false</bool>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Draggable">false</bool>
+				<Font name="FontFace">
+					<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+					<Weight>400</Weight>
+					<Style>Normal</Style>
+					<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+				</Font>
+				<bool name="Interactable">true</bool>
+				<int name="LayoutOrder">0</int>
+				<float name="LineHeight">1</float>
+				<string name="LocalizationMatchIdentifier"></string>
+				<string name="LocalizationMatchedSourceText"></string>
+				<int name="MaxVisibleGraphemes">-1</int>
+				<bool name="MultiLine">false</bool>
+				<string name="Name">TextBox</string>
+				<Ref name="NextSelectionDown">null</Ref>
+				<Ref name="NextSelectionLeft">null</Ref>
+				<Ref name="NextSelectionRight">null</Ref>
+				<Ref name="NextSelectionUp">null</Ref>
+				<string name="OpenTypeFeatures"></string>
+				<Color3 name="PlaceholderColor3">
+					<R>0.699999988</R>
+					<G>0.699999988</G>
+					<B>0.699999988</B>
+				</Color3>
+				<string name="PlaceholderText"></string>
+				<UDim2 name="Position">
+					<XS>0.408424914</XS>
+					<XO>0</XO>
+					<YS>0.373261184</YS>
+					<YO>0</YO>
+				</UDim2>
+				<bool name="RichText">false</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<float name="Rotation">0</float>
+				<bool name="Selectable">true</bool>
+				<token name="SelectionBehaviorDown">0</token>
+				<token name="SelectionBehaviorLeft">0</token>
+				<token name="SelectionBehaviorRight">0</token>
+				<token name="SelectionBehaviorUp">0</token>
+				<bool name="SelectionGroup">false</bool>
+				<Ref name="SelectionImageObject">null</Ref>
+				<int name="SelectionOrder">0</int>
+				<bool name="ShowNativeInput">true</bool>
+				<UDim2 name="Size">
+					<XS>0</XS>
+					<XO>293</XO>
+					<YS>0</YS>
+					<YO>50</YO>
+				</UDim2>
+				<token name="SizeConstraint">0</token>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<string name="Text"></string>
+				<Color3 name="TextColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<token name="TextDirection">0</token>
+				<bool name="TextEditable">true</bool>
+				<bool name="TextScaled">false</bool>
+				<float name="TextSize">14</float>
+				<Color3 name="TextStrokeColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<float name="TextStrokeTransparency">1</float>
+				<float name="TextTransparency">0</float>
+				<token name="TextTruncate">0</token>
+				<bool name="TextWrapped">false</bool>
+				<token name="TextXAlignment">2</token>
+				<token name="TextYAlignment">1</token>
+				<bool name="Visible">true</bool>
+				<int name="ZIndex">1</int>
+			</Properties>
+			<Item class="UICorner" referent="RBX526D5C555EE34749995DD874A134A533">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<UDim name="CornerRadius">
+						<S>0</S>
+						<O>15</O>
+					</UDim>
+					<bool name="DefinesCapabilities">false</bool>
+					<string name="Name">UICorner</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="TextButton" referent="RBXF0E54B20B1314D6EA241ED273907670B">
+			<Properties>
+				<bool name="Active">true</bool>
+				<Vector2 name="AnchorPoint">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AutoButtonColor">true</bool>
+				<bool name="AutoLocalize">true</bool>
+				<token name="AutomaticSize">0</token>
+				<Color3 name="BackgroundColor3">
+					<R>0.721568644</R>
+					<G>0.239215702</G>
+					<B>0</B>
+				</Color3>
+				<float name="BackgroundTransparency">0</float>
+				<Color3 name="BorderColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<token name="BorderMode">0</token>
+				<int name="BorderSizePixel">0</int>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="ClipsDescendants">false</bool>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Draggable">false</bool>
+				<Font name="FontFace">
+					<Family><url>rbxasset://fonts/families/PressStart2P.json</url></Family>
+					<Weight>400</Weight>
+					<Style>Normal</Style>
+				</Font>
+				<bool name="Interactable">true</bool>
+				<int name="LayoutOrder">0</int>
+				<float name="LineHeight">1</float>
+				<string name="LocalizationMatchIdentifier"></string>
+				<string name="LocalizationMatchedSourceText"></string>
+				<int name="MaxVisibleGraphemes">-1</int>
+				<bool name="Modal">false</bool>
+				<string name="Name">TextButton</string>
+				<Ref name="NextSelectionDown">null</Ref>
+				<Ref name="NextSelectionLeft">null</Ref>
+				<Ref name="NextSelectionRight">null</Ref>
+				<Ref name="NextSelectionUp">null</Ref>
+				<string name="OpenTypeFeatures"></string>
+				<UDim2 name="Position">
+					<XS>0.408424914</XS>
+					<XO>0</XO>
+					<YS>0.521638334</YS>
+					<YO>0</YO>
+				</UDim2>
+				<bool name="RichText">false</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<float name="Rotation">0</float>
+				<bool name="Selectable">true</bool>
+				<bool name="Selected">false</bool>
+				<token name="SelectionBehaviorDown">0</token>
+				<token name="SelectionBehaviorLeft">0</token>
+				<token name="SelectionBehaviorRight">0</token>
+				<token name="SelectionBehaviorUp">0</token>
+				<bool name="SelectionGroup">false</bool>
+				<Ref name="SelectionImageObject">null</Ref>
+				<int name="SelectionOrder">0</int>
+				<UDim2 name="Size">
+					<XS>0</XS>
+					<XO>293</XO>
+					<YS>0</YS>
+					<YO>40</YO>
+				</UDim2>
+				<token name="SizeConstraint">0</token>
+				<int64 name="SourceAssetId">-1</int64>
+				<token name="Style">0</token>
+				<BinaryString name="Tags"></BinaryString>
+				<string name="Text">&#240;&#159;&#148;&#165;DUPE!</string>
+				<Color3 name="TextColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<token name="TextDirection">0</token>
+				<bool name="TextScaled">true</bool>
+				<float name="TextSize">14</float>
+				<Color3 name="TextStrokeColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<float name="TextStrokeTransparency">1</float>
+				<float name="TextTransparency">0</float>
+				<token name="TextTruncate">0</token>
+				<bool name="TextWrapped">true</bool>
+				<token name="TextXAlignment">2</token>
+				<token name="TextYAlignment">1</token>
+				<bool name="Visible">true</bool>
+				<int name="ZIndex">1</int>
+			</Properties>
+			<Item class="UICorner" referent="RBX506C0811C790450FB24FC3253082CD73">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<UDim name="CornerRadius">
+						<S>0</S>
+						<O>15</O>
+					</UDim>
+					<bool name="DefinesCapabilities">false</bool>
+					<string name="Name">UICorner</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="UIGradient" referent="RBXB87454BC2E664130BFC86598C4567ACF">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<ColorSequence name="Color">0 1 0.0235294 0.0235294 0 1 1 1 1 0 </ColorSequence>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">true</bool>
+					<string name="Name">UIGradient</string>
+					<Vector2 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<float name="Rotation">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="Frame" referent="RBX23EA19DCEBCB4A568AD9F7CF028D155A">
+		<Properties>
+			<bool name="Active">false</bool>
+			<Vector2 name="AnchorPoint">
+				<X>0</X>
+				<Y>0</Y>
+			</Vector2>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoLocalize">true</bool>
+			<token name="AutomaticSize">0</token>
+			<Color3 name="BackgroundColor3">
+				<R>1</R>
+				<G>1</G>
+				<B>1</B>
+			</Color3>
+			<float name="BackgroundTransparency">0</float>
+			<Color3 name="BorderColor3">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<token name="BorderMode">0</token>
+			<int name="BorderSizePixel">0</int>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="ClipsDescendants">false</bool>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="Draggable">false</bool>
+			<bool name="Interactable">true</bool>
+			<int name="LayoutOrder">0</int>
+			<string name="Name">Frame</string>
+			<Ref name="NextSelectionDown">null</Ref>
+			<Ref name="NextSelectionLeft">null</Ref>
+			<Ref name="NextSelectionRight">null</Ref>
+			<Ref name="NextSelectionUp">null</Ref>
+			<UDim2 name="Position">
+				<XS>0.3937729</XS>
+				<XO>0</XO>
+				<YS>0.289799064</YS>
+				<YO>0</YO>
+			</UDim2>
+			<Ref name="RootLocalizationTable">null</Ref>
+			<float name="Rotation">0</float>
+			<bool name="Selectable">false</bool>
+			<token name="SelectionBehaviorDown">0</token>
+			<token name="SelectionBehaviorLeft">0</token>
+			<token name="SelectionBehaviorRight">0</token>
+			<token name="SelectionBehaviorUp">0</token>
+			<bool name="SelectionGroup">false</bool>
+			<Ref name="SelectionImageObject">null</Ref>
+			<int name="SelectionOrder">0</int>
+			<UDim2 name="Size">
+				<XS>0</XS>
+				<XO>329</XO>
+				<YS>0</YS>
+				<YO>157</YO>
+			</UDim2>
+			<token name="SizeConstraint">0</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<token name="Style">0</token>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="Visible">true</bool>
+			<int name="ZIndex">1</int>
+		</Properties>
+		<Item class="UIGradient" referent="RBXC061439175C64AA79526F1E816D48743">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<ColorSequence name="Color">0 0.329412 0 0.0117647 0 0.0639033 0.329412 0 0.0117647 0 0.0777202 0.329412 0 0.0117647 0 1 0 0 0 0 </ColorSequence>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Enabled">true</bool>
+				<string name="Name">UIGradient</string>
+				<Vector2 name="Offset">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<float name="Rotation">0</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+			</Properties>
+		</Item>
+		<Item class="UICorner" referent="RBX49729FAE19394DBE97872B2B514EDCB6">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<UDim name="CornerRadius">
+					<S>0</S>
+					<O>15</O>
+				</UDim>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">UICorner</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="TextBox" referent="RBX1553358868BB41599D63E7700DCA9B8F">
+		<Properties>
+			<bool name="Active">true</bool>
+			<Vector2 name="AnchorPoint">
+				<X>0</X>
+				<Y>0</Y>
+			</Vector2>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoLocalize">true</bool>
+			<token name="AutomaticSize">0</token>
+			<Color3 name="BackgroundColor3">
+				<R>1</R>
+				<G>1</G>
+				<B>0</B>
+			</Color3>
+			<float name="BackgroundTransparency">0.899999976</float>
+			<Color3 name="BorderColor3">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<token name="BorderMode">0</token>
+			<int name="BorderSizePixel">0</int>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="ClearTextOnFocus">true</bool>
+			<bool name="ClipsDescendants">false</bool>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="Draggable">false</bool>
+			<Font name="FontFace">
+				<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+				<Weight>400</Weight>
+				<Style>Normal</Style>
+				<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+			</Font>
+			<bool name="Interactable">true</bool>
+			<int name="LayoutOrder">0</int>
+			<float name="LineHeight">1</float>
+			<string name="LocalizationMatchIdentifier"></string>
+			<string name="LocalizationMatchedSourceText"></string>
+			<int name="MaxVisibleGraphemes">-1</int>
+			<bool name="MultiLine">false</bool>
+			<string name="Name">TextBox</string>
+			<Ref name="NextSelectionDown">null</Ref>
+			<Ref name="NextSelectionLeft">null</Ref>
+			<Ref name="NextSelectionRight">null</Ref>
+			<Ref name="NextSelectionUp">null</Ref>
+			<string name="OpenTypeFeatures"></string>
+			<Color3 name="PlaceholderColor3">
+				<R>0.699999988</R>
+				<G>0.699999988</G>
+				<B>0.699999988</B>
+			</Color3>
+			<string name="PlaceholderText"></string>
+			<UDim2 name="Position">
+				<XS>0.408424914</XS>
+				<XO>0</XO>
+				<YS>0.373261184</YS>
+				<YO>0</YO>
+			</UDim2>
+			<bool name="RichText">false</bool>
+			<Ref name="RootLocalizationTable">null</Ref>
+			<float name="Rotation">0</float>
+			<bool name="Selectable">true</bool>
+			<token name="SelectionBehaviorDown">0</token>
+			<token name="SelectionBehaviorLeft">0</token>
+			<token name="SelectionBehaviorRight">0</token>
+			<token name="SelectionBehaviorUp">0</token>
+			<bool name="SelectionGroup">false</bool>
+			<Ref name="SelectionImageObject">null</Ref>
+			<int name="SelectionOrder">0</int>
+			<bool name="ShowNativeInput">true</bool>
+			<UDim2 name="Size">
+				<XS>0</XS>
+				<XO>293</XO>
+				<YS>0</YS>
+				<YO>50</YO>
+			</UDim2>
+			<token name="SizeConstraint">0</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<string name="Text"></string>
+			<Color3 name="TextColor3">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<token name="TextDirection">0</token>
+			<bool name="TextEditable">true</bool>
+			<bool name="TextScaled">false</bool>
+			<float name="TextSize">14</float>
+			<Color3 name="TextStrokeColor3">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="TextStrokeTransparency">1</float>
+			<float name="TextTransparency">0</float>
+			<token name="TextTruncate">0</token>
+			<bool name="TextWrapped">false</bool>
+			<token name="TextXAlignment">2</token>
+			<token name="TextYAlignment">1</token>
+			<bool name="Visible">true</bool>
+			<int name="ZIndex">1</int>
+		</Properties>
+		<Item class="UICorner" referent="RBX526D5C555EE34749995DD874A134A533">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<UDim name="CornerRadius">
+					<S>0</S>
+					<O>15</O>
+				</UDim>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">UICorner</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="TextButton" referent="RBXF0E54B20B1314D6EA241ED273907670B">
+		<Properties>
+			<bool name="Active">true</bool>
+			<Vector2 name="AnchorPoint">
+				<X>0</X>
+				<Y>0</Y>
+			</Vector2>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoButtonColor">true</bool>
+			<bool name="AutoLocalize">true</bool>
+			<token name="AutomaticSize">0</token>
+			<Color3 name="BackgroundColor3">
+				<R>0.721568644</R>
+				<G>0.239215702</G>
+				<B>0</B>
+			</Color3>
+			<float name="BackgroundTransparency">0</float>
+			<Color3 name="BorderColor3">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<token name="BorderMode">0</token>
+			<int name="BorderSizePixel">0</int>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="ClipsDescendants">false</bool>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="Draggable">false</bool>
+			<Font name="FontFace">
+				<Family><url>rbxasset://fonts/families/PressStart2P.json</url></Family>
+				<Weight>400</Weight>
+				<Style>Normal</Style>
+			</Font>
+			<bool name="Interactable">true</bool>
+			<int name="LayoutOrder">0</int>
+			<float name="LineHeight">1</float>
+			<string name="LocalizationMatchIdentifier"></string>
+			<string name="LocalizationMatchedSourceText"></string>
+			<int name="MaxVisibleGraphemes">-1</int>
+			<bool name="Modal">false</bool>
+			<string name="Name">TextButton</string>
+			<Ref name="NextSelectionDown">null</Ref>
+			<Ref name="NextSelectionLeft">null</Ref>
+			<Ref name="NextSelectionRight">null</Ref>
+			<Ref name="NextSelectionUp">null</Ref>
+			<string name="OpenTypeFeatures"></string>
+			<UDim2 name="Position">
+				<XS>0.408424914</XS>
+				<XO>0</XO>
+				<YS>0.521638334</YS>
+				<YO>0</YO>
+			</UDim2>
+			<bool name="RichText">false</bool>
+			<Ref name="RootLocalizationTable">null</Ref>
+			<float name="Rotation">0</float>
+			<bool name="Selectable">true</bool>
+			<bool name="Selected">false</bool>
+			<token name="SelectionBehaviorDown">0</token>
+			<token name="SelectionBehaviorLeft">0</token>
+			<token name="SelectionBehaviorRight">0</token>
+			<token name="SelectionBehaviorUp">0</token>
+			<bool name="SelectionGroup">false</bool>
+			<Ref name="SelectionImageObject">null</Ref>
+			<int name="SelectionOrder">0</int>
+			<UDim2 name="Size">
+				<XS>0</XS>
+				<XO>293</XO>
+				<YS>0</YS>
+				<YO>40</YO>
+			</UDim2>
+			<token name="SizeConstraint">0</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<token name="Style">0</token>
+			<BinaryString name="Tags"></BinaryString>
+			<string name="Text">&#240;&#159;&#148;&#165;DUPE!</string>
+			<Color3 name="TextColor3">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<token name="TextDirection">0</token>
+			<bool name="TextScaled">true</bool>
+			<float name="TextSize">14</float>
+			<Color3 name="TextStrokeColor3">
+				<R>0</R>
+				<G>0</G>
+				<B>0</B>
+			</Color3>
+			<float name="TextStrokeTransparency">1</float>
+			<float name="TextTransparency">0</float>
+			<token name="TextTruncate">0</token>
+			<bool name="TextWrapped">true</bool>
+			<token name="TextXAlignment">2</token>
+			<token name="TextYAlignment">1</token>
+			<bool name="Visible">true</bool>
+			<int name="ZIndex">1</int>
+		</Properties>
+		<Item class="UICorner" referent="RBX506C0811C790450FB24FC3253082CD73">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<UDim name="CornerRadius">
+					<S>0</S>
+					<O>15</O>
+				</UDim>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">UICorner</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="UIGradient" referent="RBXB87454BC2E664130BFC86598C4567ACF">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<ColorSequence name="Color">0 1 0.0235294 0.0235294 0 1 1 1 1 0 </ColorSequence>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Enabled">true</bool>
+				<string name="Name">UIGradient</string>
+				<Vector2 name="Offset">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<float name="Rotation">0</float>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="UIGradient" referent="RBXB87454BC2E664130BFC86598C4567ACF">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<ColorSequence name="Color">0 1 0.0235294 0.0235294 0 1 1 1 1 0 </ColorSequence>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="Enabled">true</bool>
+			<string name="Name">UIGradient</string>
+			<Vector2 name="Offset">
+				<X>0</X>
+				<Y>0</Y>
+			</Vector2>
+			<float name="Rotation">0</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+		</Properties>
+	</Item>
+</roblox>
